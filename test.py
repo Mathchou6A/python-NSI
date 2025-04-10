@@ -94,7 +94,8 @@
 #    i = i*3
 #    n += 1
 
-
+# 4.9
+# programme qui affiche la suite de symboles
 # i = 1
 # var1 = "*"
 # while (i <= 10):
@@ -562,28 +563,57 @@ from math import *
 # l = [[12, 14, 120, "text", "text2"], [13, 15, 121, "textliste2"], ["liste", 13, 45, 134554]]
 # print(len(l[0]))
 
+# 4.5
+# calcule le volume d’un parallélépipède rectangle dont sont fournis au départ la largeur, la hauteur et la profondeur.
+# def volume():
+#    largeur = float(input("largeur : "))
+#    hauteur = float(input("hauteur : "))
+#    profondeur = float(input("profondeur : "))
+#    print(largeur * hauteur * profondeur)
+
+# volume()
 
 
+# 4.6
+# convertit un nombre entier de secondes fourni au départ en un nombre d’années, de mois, de jours, de minutes et de secondes (utilisez l’opérateur modulo : %)
+
+# def convertisseur_secondes():
+#    secondes = int(input("entrer le nombre de secondes : "))
+#    annee = secondes // 31536000
+#    mois = (secondes % 31536000) // 2592000
+#    jours = (secondes % 2592000) // 86400
+#    heures = (secondes % 86400) // 3600
+#    minutes = (secondes % 3600) // 60
+#    secondes = secondes % 60
+#    print(annee, "années", mois, "mois", jours, "jours", heures, "heures", minutes, "minutes", secondes, "secondes")
+
+# convertisseur_secondes()
 
 
+# 4.7
+# affiche les 20 premiers termes de la table de multiplication par 7, en signalant au passage (à l’aide d’une astérisque) ceux qui sont des multiples de 3
+# def table_de_7_avec_3():
+#    i = 0
+#    while i <= 20:
+#       i = i + 1
+#       if i % 3 == 0:
+#          print(i * 7, "*", end=" ")
+#       else:
+#          print(i * 7, end=" ")
+
+# table_de_7_avec_3()
 
 
+# 4.8
+# programme qui calcule les 50 premiers termes de la table de multiplication par 13, mais n’affiche que ceux qui sont des multiples de 7
+# def table_de_13_avec_7():
+#    i = 0
+#    while i <= 50:
+#       i = i + 1
+#       if i % 7 == 0:
+#          print(i * 13, end=" ")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# table_de_13_avec_7()
 
 
 
